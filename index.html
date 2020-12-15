@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Aidan's work for 5-04, Calculates the Area of a trapezoid.-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Aidan's work for Unit 5-04.">
+    <meta name="keywords" content="MTHS, Website, Unit 5-04">
+    <meta name="author" content="Aidan Lalonde-Novales">
+    <meta name="viewport" content="width=device-width">
+    <title>Unit 5-04, By Aidan</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="maincontent">
+      <h1 class="text">Calculate the Area of a Trapezoid</h1>
+      <hr class="splitter">
+      <img src="images/trapezoid.jpg" alt="trapezoid" class="trapezoid">
+      <table class="table">
+        <tr>
+          <td>Enter the side length of a:</td>
+         <td><input type="text" id="alength"></td>
+        </tr>
+        <tr>
+          <td>Enter the side length of b:</td>
+          <td><input type="text" id="blength"></td>
+        </tr>
+        <tr>
+          <td>Enter the height:</td>
+          <td><input type="text" id="height"></td>
+        </tr>
+        <tr>
+          <td><input class="bigbutton" type="submit" id="submitbutton"></td>
+        </tr>
+        <tr>
+          <td>The area of the trapezoid is:</td>
+          <td id="area">0</td> <!-- This is where area is displayed. -->
+        </tr>
+      </table>
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>
